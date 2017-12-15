@@ -8,7 +8,7 @@ public class Simul2 {
         Thread primo = new Thread(new Task(primaRisorsa, secondaRisorsa));
         Thread secondo = new Thread(new Task(primaRisorsa, secondaRisorsa));
         primo.setName("primo");
-        secondo.setName("t2");
+        secondo.setName("secondo");
         primo.start();
         secondo.start();
         try {
